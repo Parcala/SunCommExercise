@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Diagnostics.HealthChecks;
 using SunCommunitiesExercise.Models;
 using static SunCommunitiesExercise.Constants;
 
