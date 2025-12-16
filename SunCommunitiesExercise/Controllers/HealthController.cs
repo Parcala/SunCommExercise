@@ -1,11 +1,12 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Diagnostics.HealthChecks;
 using SunCommunitiesExercise.Models;
 using static SunCommunitiesExercise.Constants;
 
 namespace SunCommunitiesExercise.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class HealthController(ILogger<HealthController> logger) : ControllerBase
     {
