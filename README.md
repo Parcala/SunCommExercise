@@ -11,3 +11,8 @@ To test you can use 'dotnet test' from within the folder containing the test pro
 # Improvements
 Input validation and expectations.  
 User security and validation.  
+With more requirements known possibly named fees for requests.  
+Use DB to access client information on preferred status if coming from a website.  
+
+# External Assistance
+Docs were used for assistance with formatting of an MD file.  
